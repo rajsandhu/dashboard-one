@@ -11,7 +11,10 @@ const WidgetTitle = () => {
 const WidgetText = props => {
     return (
         <div className="text">
-            This is some text for Calendar Widget: {props.text}
+            <p>This is some text for Calendar Widget: {props.text}</p>
+            <p>This is some hardcoded calendar data:</p>
+            <p>2019-11-01</p>
+            <p>2019-11-03</p>
         </div>
     )
 }
