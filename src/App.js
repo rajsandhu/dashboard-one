@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import WidgetOne from './widgets/WidgetOne'
+import WidgetTwo from './widgets/WidgetTwo'
+import WidgetThree from './widgets/WidgetThree'
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +25,20 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+
+class App extends Component {
+  render() {
+    return (
+        <div>
+          <WidgetOne />
+          <WidgetTwo />
+          <WidgetThree />
+        </div>
+
+    )
+  }
 }
 
 export default App;
