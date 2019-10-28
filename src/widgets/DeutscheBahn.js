@@ -9,10 +9,10 @@ const WidgetTitle = () => {
     )
 }
 
-const WidgetText = () => {
+const WidgetText = props => {
     return (
         <div className="text">
-            This is some text for the Deutsche Bahn Widget
+            This is some text for the Deutsche Bahn Widget: {props.text}
         </div>
     )
 }
@@ -22,7 +22,7 @@ class DeutscheBahn extends Component {
         return (
             <>
                 <WidgetTitle />
-                <WidgetText />
+                <WidgetText text="props text for DB" />
             </>
         )
     }

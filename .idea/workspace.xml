@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="384e110b-f332-4715-9f82-45ebe9330a64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/WidgetOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ServerStatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/WidgetThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/DeutscheBahn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/WidgetTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/ServerStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/ServerStatus.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1572252883799" duration="1789000" />
       <workItem from="1572254698240" duration="1230000" />
       <workItem from="1572256358774" duration="1348000" />
-      <workItem from="1572258169354" duration="870000" />
+      <workItem from="1572258169354" duration="1762000" />
     </task>
     <task id="LOCAL-00001" summary="created a default react app and widgets files and folder">
       <created>1572253832786</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572256953079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactored/renamed widgets">
+      <created>1572259295578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572259295579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +134,7 @@
     <MESSAGE value="created a default react app and widgets files and folder" />
     <MESSAGE value="created three non-dynamic widget components with duplicate code" />
     <MESSAGE value="added identical text functional components to the widgets" />
-    <option name="LAST_COMMIT_MESSAGE" value="added identical text functional components to the widgets" />
+    <MESSAGE value="refactored/renamed widgets" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored/renamed widgets" />
   </component>
 </project>

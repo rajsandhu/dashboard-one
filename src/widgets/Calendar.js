@@ -8,10 +8,10 @@ const WidgetTitle = () => {
     )
 }
 
-const WidgetText = () => {
+const WidgetText = props => {
     return (
         <div className="text">
-            This is some text for Calendar Widget
+            This is some text for Calendar Widget: {props.text}
         </div>
     )
 }
@@ -21,7 +21,7 @@ class Calendar extends Component {
         return (
             <>
                 <WidgetTitle />
-                <WidgetText />
+                <WidgetText text="props text for Calendar" />
             </>
         )
     }

@@ -8,10 +8,10 @@ const WidgetTitle = () => {
     )
 }
 
-const WidgetText = () => {
+const WidgetText = props => {
     return (
         <div className="text">
-            This is some text for Server Status widget
+            This is some text for Server Status widget: {props.text}
         </div>
     )
 }
@@ -21,7 +21,7 @@ class ServerStatus extends Component {
         return (
             <>
                 <WidgetTitle />
-                <WidgetText />
+                <WidgetText text="props text"/>
                 </>
         )
     }
