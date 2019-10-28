@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 const WidgetTitle = () => {
     return (
         <div className="title">
-            <h1>This is the Title of Widget One</h1>
+            <h1>This is the Title of Calendar Widget</h1>
         </div>
     )
 }
@@ -11,20 +11,20 @@ const WidgetTitle = () => {
 const WidgetText = () => {
     return (
         <div className="text">
-            This is some text for widget one
+            This is some text for Calendar Widget
         </div>
     )
 }
 
-class WidgetOne extends Component {
+class Calendar extends Component {
     render() {
         return (
             <>
                 <WidgetTitle />
                 <WidgetText />
-                </>
+            </>
         )
     }
 }
 
-export default WidgetOne
+export default Calendar

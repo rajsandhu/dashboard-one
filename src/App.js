@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import WidgetOne from './widgets/WidgetOne'
-import WidgetTwo from './widgets/WidgetTwo'
-import WidgetThree from './widgets/WidgetThree'
+import ServerStatus from './widgets/ServerStatus'
+import Calendar from './widgets/Calendar'
+import DeutscheBahn from './widgets/DeutscheBahn'
 
 /*function App() {
   return (
@@ -32,9 +32,9 @@ class App extends Component {
   render() {
     return (
         <div>
-          <WidgetOne />
-          <WidgetTwo />
-          <WidgetThree />
+          <ServerStatus />
+          <Calendar />
+          <DeutscheBahn />
         </div>
 
     )

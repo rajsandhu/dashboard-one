@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
+import Calendar from "./Calendar";
 
 const WidgetTitle = () => {
     return (
         <div className="title">
-            <h1>This is the Title of Widget Two</h1>
+            <h1>This is the Title of Deutsche Bahn Widget</h1>
         </div>
     )
 }
@@ -11,12 +12,12 @@ const WidgetTitle = () => {
 const WidgetText = () => {
     return (
         <div className="text">
-            This is some text for widget two
+            This is some text for the Deutsche Bahn Widget
         </div>
     )
 }
 
-class WidgetTwo extends Component {
+class DeutscheBahn extends Component {
     render() {
         return (
             <>
@@ -27,4 +28,4 @@ class WidgetTwo extends Component {
     }
 }
 
-export default WidgetTwo
+export default DeutscheBahn
