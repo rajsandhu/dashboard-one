@@ -8,10 +8,21 @@ const WidgetTitle = () => {
     )
 }
 
+const WidgetText = () => {
+    return (
+        <div className="text">
+            This is some text for widget one
+        </div>
+    )
+}
+
 class WidgetOne extends Component {
     render() {
         return (
-            <WidgetTitle />
+            <>
+                <WidgetTitle />
+                <WidgetText />
+                </>
         )
     }
 }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import WidgetTwo from "./WidgetTwo";
 
 const WidgetTitle = () => {
     return (
@@ -8,10 +9,21 @@ const WidgetTitle = () => {
     )
 }
 
+const WidgetText = () => {
+    return (
+        <div className="text">
+            This is some text for widget three
+        </div>
+    )
+}
+
 class WidgetThree extends Component {
     render() {
         return (
-            <WidgetTitle />
+            <>
+                <WidgetTitle />
+                <WidgetText />
+            </>
         )
     }
 }
